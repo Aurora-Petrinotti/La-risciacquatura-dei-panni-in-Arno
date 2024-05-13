@@ -1,0 +1,731 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Proposte di Gaetano Cioni per la correzione della Ventisettana</title>
+                <author>Gaetano Cioni</author>
+            </titleStmt>
+            <publicationStmt>
+                <publisher> Corso «Digital Humanities» </publisher>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Fogli contenenti le correzioni di Gaetano Cioni alla prima edizione dei Promessi Sposi: le cc. 1-3 riportano le correzioni al tomo I, le cc. 4-5 al tomo II. La
+                    c. 2v è bianca. </p>
+            </sourceDesc>
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <settlement> Milano </settlement>
+                        <repository> Biblioteca nazionale braidense</repository>
+                        <idno> Manz.B.VI.6</idno>
+                    </msIdentifier>
+                    <msContents>
+                        <!-- contenuto intellettuale del manoscritto -->
+                        <p>Il contenuto del manoscritto comprende le correzioni autografe realizzate
+                            dal Dott. Gaetano Cioni alla prima edizione dei Promessi sposi, nello
+                            specifico al primo e secondo tomo. Le cc. 1-3 riportano le correzioni al
+                            tomo I; la c. 2v è bianca, mentre le cc. 4-5 contengono le correzioni al
+                            tomo II. Le proposte di correzione sono disposte all’interno del
+                            documento secondo un ordine progressivo: con l’avanzare della lettura si
+                            procede nella correzione. Nel documento è infatti sempre inserita una
+                            numerazione delle pagine dell’edizione dei Promessi sposi di riferimento
+                            con il quale si indica l’avanzare delle correzioni. Tuttavia, in alcuni
+                            casi, – indicati attraverso il numero di pagina – l’autore inserisce
+                            proposte di correzione che non procedono gradualmente ma che richiamano
+                            una fase precedente della lettura del testo. Le osservazioni di Cioni
+                            avvengono a tutta pagina, tranne nella c. 3, in cui la correzione
+                            procede in colonna (nella colonna di destra per il recto e a sinistra
+                            nel verso); nel recto di c. 3 è inoltre presente un abbozzo di disegno,
+                            che potrebbe raffigurare una via, ma che non richiama le correzioni
+                            poste a fianco e perciò non è ben identificabile. </p>
+                    </msContents>
+                    <physDesc>
+                        <!-- descrizione fisica del manoscritto -->
+                        <p> Manoscritto cartaceo formato da un bifolio e tre fogli sciolti, il quale
+                            contiene 5 cc. Il documento è privo di titolazione autografa. Nel
+                            frontespizio curato da Pietro Brambilla troviamo scritto: «Raccolta
+                            Manzoniana. Dal comm. Brambilla. XII.6. Correzioni autografe fatte dal
+                            dott. Gaetano Cioni alla prima edizione dei ̏ Promessi Sposi˝ (tomi I e
+                            II). Carte 5, numerate a matita; Le cc. 1+2 (1 foglio) e 3 (1/2 foglio)
+                            contengono correzioni al tomo I; Le cc. 4 e 5 (1/2 foglio ciascuna) al
+                            tomo II. B.» La numerazione è in numeri arabi e posta solo nel recto
+                            della carta; a lapis e posizionata nel margine inferiore destro del
+                            foglio. Non si tratta, presumibilmente, di una numerazione autografa, ma
+                            è dovuta al momento di fascicolazione del documento. Nel testo sono
+                            individuabili quattro strumenti di scrittura: la penna base (P), con la
+                            quale sono state disposte la maggior parte delle correzioni; la penna
+                            rossa (R), con la quale è indicato soltanto l’inizio del «Tomo I» e
+                            quindi, nei fatti, del lavoro stesso; il lapis (L) con il quale è
+                            inserita la numerazione della carta; una matita di colore marrone (M),
+                            per mezzo della quale sono inseriti commenti e osservazioni sulle
+                            correzioni, ma anche alcune correzioni. </p>
+                    </physDesc>
+                </msDesc>
+            </sourceDesc>
+            <sourceDesc>
+                <listBibl>
+                    <bibl xml:id="Manzoni_Ipromessisposi" xml:lang="italiano">
+                        <author>Manzoni, Alessandro</author>
+                        <editor>Martinelli, Donatella</editor>
+                        <title>I promessi sposi: edizione critica della Ventisettana</title>
+                        <pubPlace>Milano</pubPlace>
+                        <date>2022</date>
+                        <publisher>Casa del Manzoni </publisher></bibl>
+                    <bibl xml:id="Edizione_Ferrario" xml:lang="italiano">
+                        <author>Manzoni, Alessandro</author>
+                        <title>I promessi sposi: storia milanese del secolo XVII /scoperta e rifatta
+                            da Alessandro Manzoni</title>
+                        <pubPlace>Milano</pubPlace>
+                        <publisher>Vincenzo Ferrario</publisher>
+                        <date>1827</date>
+                    </bibl>
+                </listBibl>
+            </sourceDesc>
+            <sourceDesc>
+                <listPerson>
+                    <person xml:id="Gaetano_Cioni">
+                        <persName type="Cioni"
+                            ref="https://www.treccani.it/enciclopedia/gaetano-cioni_(Dizionario-Biografico)/"
+                            > Cioni, Gaetano </persName>
+                    </person>
+                    <person xml:id="Alessandro_Manzoni">
+                        <persName type="Manzoni"
+                            ref="https://www.treccani.it/enciclopedia/alessandro-manzoni_(Dizionario-Biografico)/"
+                            > Manzoni, Alessandro </persName>
+                    </person>
+                    <person xml:id="Pietro_Brambilla">
+                        <persName type="Brambilla"
+                            ref="https://www.treccani.it/enciclopedia/pietro-brambilla_(Dizionario-Biografico)/"
+                            > Brambilla, Pietro</persName>
+                    </person>
+                </listPerson>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <!-- intestazione -->
+            <p>Raccolta Manzoniana. Dal comm. <persName type="Brambilla"> Brambilla </persName> .
+                XII.6. Correzioni autografe fatte dal dott. Gaetano Cioni alla prima edizione dei ̏
+                Promessi Sposi˝ (tomi I e II). Carte 5, numerate a matita; Le cc. 1+2 (1 foglio) e 3
+                (1/2 foglio) contengono correzioni al tomo I; Le cc. 4 e 5 (1/2 foglio ciascuna) al
+                tomo II. <persName type="Brambilla"> B.</persName></p>
+        </front>
+        <body>
+            <div>
+                <!-- metadati specifici del manoscritto -->
+                <msDesc>
+                    <msIdentifier>
+                        <objectName>Proposte di Gaetano Cioni per la correzione della
+                            Ventisettana</objectName>
+                        <msName>Manz.B.VI.6</msName>
+                    </msIdentifier>
+                </msDesc>
+            </div>
+            <div hand="#Gaetano_Cioni">
+                <pb n="1r"/>
+                <list rend="simple">
+                    <item><hi rend="underline color:red">Tomo I</hi>.</item>
+                    <item>
+                        <ref target="pagina #Edizione_Ferrario">P. 4.</ref> — <quote
+                            source="#Manzoni_Ipromessisposi">idiotismi lombardi a <hi
+                                rend="underline">furia</hi>.</quote> — a <hi rend="underline"
+                            >josa</hi>.</item>
+                    <item>
+                        <ref target="pagina #Edizione_Ferrario"><sic>6</sic><corr>p.6</corr></ref> — <quote
+                            source="Manzoni_Ipromessisposi"><hi rend="underline">avessero
+                            </hi>realmente <hi rend="underline">esistito</hi></quote> — <hi
+                            rend="underline">fossero </hi>realmente <hi rend="underline"
+                            >esistiti</hi>.</item>
+                    <item>
+                        <ref target="pagina #Edizione_Ferrario"><sic>9.-10.</sic><corr>pp.9-10</corr></ref>
+                        <quote source="Manzoni_Ipromessisposi"><hi rend="underline"
+                            >Riviera</hi></quote> — per regione paese – <hi rend="underline"
+                            >paese</hi></item>
+                    <item>
+                        <ref target="pagina #Edizione_Ferrario"><sic>11.</sic><corr>p.11</corr></ref>
+                        <quote source="Manzoni_Ipromessisposi">da quivi</quote></item>
+                    <item>
+                        <ref target="pagina #Edizione_Ferrario"><sic>13</sic><corr>p.13</corr></ref>– <quote
+                            source="Manzoni_Ipromessisposi">Rivolta</quote> — <hi rend="underline"
+                            >voltata</hi>. </item>
+                    <item>
+                        <ref target="pagina #Edizione_Ferrario"><sic>14.</sic><corr>p.14.</corr></ref> — <quote
+                            source="Manzoni_Ipromessisposi">Vezzo</quote> — collana </item>
+                    <item>
+                        <ref target="pagina #Edizione_Ferrario"><sic>20.</sic><corr>p.20.</corr></ref> – <quote
+                            source="Manzoni_Ipromessisposi"><hi rend="underline">che
+                            </hi>l’aspettato era egli</quote> – <hi rend="underline">era lui</hi>; o
+                            <hi rend="underline">ch’egli era </hi>l’aspettato.</item>
+                    <item>
+                        <ref target="pagina #Edizione_Ferrario"><sic>23.</sic><corr>p.23.</corr></ref> – <quote
+                            source="Manzoni_Ipromessisposi">Codesti signori</quote> — Lor
+                        signori.</item>
+                    <item>
+                        <ref target="pagina #Edizione_Ferrario"><sic>24.</sic><corr>p.24.</corr></ref>– <quote
+                            source="Manzoni_Ipromessisposi">Un occhio del corpo</quote> — <hi
+                            rend="underline">un occhio </hi>
+                    </item>
+                    <item>
+                        <ref target="pagina #Edizione_Ferrario"><sic>25.</sic><corr>p.25.</corr> </ref>– <quote
+                            source="Manzoni_Ipromessisposi">Ingranchite</quote> — Aggranchiate. </item>
+                    <item>
+                        <ref target="pagina #Edizione_Ferrario"><sic>27.</sic><corr>p.27.</corr></ref>– <quote
+                            source="Manzoni_Ipromessisposi">per l’amore.</quote> – per amor d’un
+                        pezzo </item>
+                    <item>
+                        <ref target="pagina #Edizione_Ferrario"><sic>35</sic><corr>p.35</corr></ref> – <del>colle pugn
+                            </del><quote source="Manzoni_Ipromessisposi">piccol fiasco </quote> –
+                        fiaschetto. </item>
+                    <item>
+                        <ref target="pagina #Edizione_Ferrario"><sic>36.</sic><corr>p.36</corr></ref>
+                        <quote source="Manzoni_Ipromessisposi"> ampolla medicinale </quote>——
+                        medicina </item>
+                    <item>
+                        <ref target="pagina #Edizione_Ferrario"><sic>45.</sic><corr>p.45.</corr></ref>
+                        <quote source="Manzoni_Ipromessisposi">ponno</quote> – possono</item>
+                    <item>
+                        <ref target="pagina #Edizione_Ferrario"><sic>83.</sic><corr>p.53.</corr></ref>
+                        <quote source="Manzoni_Ipromessisposi">non più rage</quote> –fandonie. </item>
+                    <item>
+                        <ref target="pagina #Edizione_Ferrario"><sic>74</sic><corr>p.74.</corr></ref>
+                        <quote source="Manzoni_Ipromessisposi"> dove è <hi rend="underline">costei
+                            </hi></quote> (<hi rend="underline">la grida</hi>) dove è <hi
+                            rend="underline">ella </hi>
+                    </item>
+                    <item>
+                        <ref target="pagina #Edizione_Ferrario"><sic>86.</sic><corr>p.86.</corr></ref><quote
+                            source="Manzoni_Ipromessisposi">che non la mi vuol fare</quote> — che la
+                        non mi vuol fare. </item>
+                    <item>
+                        <ref target="pagina #Edizione_Ferrario"><sic>94.</sic><corr>p.94.</corr></ref><quote
+                            source="Manzoni_Ipromessisposi">secca <hi rend="underline">e</hi>
+                            stecchita </quote> — secca stecchita. </item>
+                    <item>
+                        <ref target="pagina #Edizione_Ferrario"><sic>p.99.</sic><corr>99.</corr></ref>
+                        <quote source="Manzoni_Ipromessisposi">fare stare un soverchiatore</quote> –
+                        farci stare </item>
+                    <item>
+                        <ref target="pagina #Edizione_Ferrario"><sic>p.99.</sic><corr>99.</corr></ref>
+                        <quote source="Manzoni_Ipromessisposi">spuntare un impegno</quote> –
+                        spuntarla in un impegno </item>
+                    <item>
+                        <ref target="pagina #Edizione_Ferrario"><sic>105.</sic><corr>p.105.</corr></ref>
+                        <quote source="Manzoni_Ipromessisposi">tornato alla memoria</quote> –
+                        tornato in sé </item>
+                    <item>
+                        <ref target="pagina #Edizione_Ferrario"><sic>107.</sic><corr>p.107.</corr></ref>
+                        <quote source="Manzoni_Ipromessisposi"><hi rend="underline">a</hi> taglio
+                        </quote> – <hi rend="underline">in</hi> taglio </item>
+                </list>
+            </div>
+            <div hand="#Gaetano_Cioni">
+                <pb n="1 verso"/>
+                <list rend="simple">
+                    <item>
+                        <ref target="pagina #Edizione_Ferrario">P. 126.</ref>
+                        <quote source="#Manzoni_Ipromessisposi">inzigasse</quote> — aizzasse:
+                        mettere al punto; metter su = <quote source="#Manzoni_Ipromessisposi">chi
+                            appena gl’inzigasse </quote>– chi nulla nulla gli mettesse su.</item>
+                    <item>
+                        <ref target="pagina #Edizione_Ferrario">[p.]127.</ref>
+                        <quote source="#Manzoni_Ipromessisposi">di arrischiato</quote> — di
+                        rompicollo.</item>
+                    <item>
+                        <ref target="pagina #Edizione_Ferrario">[p.127]</ref><quote
+                            source="#Manzoni_Ipromessisposi"><hi rend="underline">sentieruolo</hi>
+                        </quote>– è disusato – <hi rend="underline">viuzzo</hi>, o <hi
+                            rend="underline">viuzza</hi></item>
+                    <item>
+                        <ref target="pagina #Edizione_Ferrario">[p.]128</ref>
+                        <quote source="#Manzoni_Ipromessisposi">che al di fuori </quote>– che
+                        fuori.</item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.128]</ref><quote
+                            source="#Manzoni_Ipromessisposi"><hi rend="underline">scorsi</hi> due o
+                            tre salotti </quote>– <hi rend="underline">traversati</hi>
+                    </item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p].129.</ref>
+                        <quote source="#Manzoni_Ipromessisposi">ad ambe mani </quote>— a due mani </item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]130.</ref>
+                        <quote source="#Manzoni_Ipromessisposi">d’una certa <hi rend="underline"
+                                >quale</hi>
+                        </quote>— o tal quale, o lasciarla la parola <hi rend="underline"
+                        >quale</hi>.</item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]145.</ref>
+                        <quote source="#Manzoni_Ipromessisposi"><hi rend="underline">fatto
+                                senza</hi> quel colloquio</quote> – <hi rend="underline">fatto di
+                            meno di </hi>quel colloquio. </item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]158.</ref>
+                        <quote source="#Manzoni_Ipromessisposi"><hi rend="underline">trasalire</hi>
+                        </quote>- disusato - <hi rend="underline">riscuotersi</hi>.</item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]162.</ref>
+                        <quote source="#Manzoni_Ipromessisposi">La madre da vero</quote> – mia
+                        madre.</item>
+                    <item><ref target="pagina #Edizione_Ferrario"> [p.]164.</ref>
+                        <quote source="#Manzoni_Ipromessisposi">trasaltare</quote> — balzellare
+                        –</item>
+                    <item><ref target="pagina #Edizione_Ferrario"> [p.164]</ref><quote
+                        source="#Manzoni_Ipromessisposi">aiutati che ti <abbr>aiuter</abbr><expan>aiuterò</expan> 
+                        </quote>aiutati ch’io t’aiuto.</item>
+                    <item><ref target="pagina #Edizione_Ferrario"> [p.165].</ref>
+                        <quote source="#Manzoni_Ipromessisposi">Gran saraceno</quote> – gran
+                        turco</item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]166.</ref>
+                        <quote source="#Manzoni_Ipromessisposi">svezzati di quel <abbr>p</abbr><expan>posto</expan>.</quote>
+                        divezzati da quel luogo.</item>
+                    <item><ref target="pagina #Edizione_Ferrario"> [p.]169.</ref>
+                        <quote source="#Manzoni_Ipromessisposi">sulla bass’ora</quote> – – <note
+                            hand="#Alessandro_Manzoni">Nota. da qualche contadino</note></item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]181. </ref><quote
+                            source="#Manzoni_Ipromessisposi"><hi rend="underline"
+                            >nell’</hi>aria</quote> – <hi rend="underline">per </hi>aria </item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]182.</ref>- <quote
+                            source="#Manzoni_Ipromessisposi">di marina gonfiata </quote>— marina
+                        torbida.</item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.] 201.</ref>
+                        <del>si era</del>
+                        <quote source="#Manzoni_Ipromessisposi">si è <hi rend="underline">addato
+                            </hi></quote>– disusato affatto in questo senso – <hi rend="underline"
+                            >avvisto</hi>, accorto</item>
+                    <item><ref target="pagina #Edizione_Ferrario"> [p.]214.</ref>
+                        <quote source="#Manzoni_Ipromessisposi">trasaltava</quote> — —</item>
+                    <item><ref target="pagina #Edizione_Ferrario"> [p.]220 </ref>
+                        <quote source="#Manzoni_Ipromessisposi"><hi rend="underline">scassinato</hi>
+                        </quote>– disusato – <hi rend="underline">sconquassato</hi>.</item>
+                    <item><ref target="pagina #Edizione_Ferrario"> [p.220]</ref><quote
+                            source="#Manzoni_Ipromessisposi">brancare</quote> – atterrare <abbr>p</abbr><expan>per</expan>
+                            <quote source="#Manzoni_Ipromessisposi">Le <hi rend="underline">due
+                            </hi>braccia. </quote>Lasciare il <hi rend="underline">due</hi>.</item>
+                </list>
+            </div>
+            <div hand="#Gaetano_Cioni">
+                <pb n="c. 2 recto"/>
+                <list rend="simple">
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]221.</ref>
+                        <quote source="#Manzoni_Ipromessisposi"><hi rend="underline">all’</hi>alto
+                                <hi rend="underline">e</hi> al basso </quote>— dall’alto al
+                        basso</item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]222.</ref>
+                        <quote source="#Manzoni_Ipromessisposi">scorrazzare </quote>– non tanto
+                        usato.</item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]234.</ref>
+                        <quote source="#Manzoni_Ipromessisposi">trepidare </quote>– disusato, ma
+                        bello.</item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]240</ref>
+                        <quote source="#Manzoni_Ipromessisposi">scerse la sua casetta </quote>–
+                        scerse, scerse.</item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.240]</ref>
+                        <quote source="#Manzoni_Ipromessisposi">L’aere gli simiglia </quote>—
+                        sembra, pare.</item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]270.</ref>
+                        <quote source="#Manzoni_Ipromessisposi">manifestare un <hi rend="underline"
+                                >marrone</hi></quote>. Basso </item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]291.</ref>
+                        <quote source="#Manzoni_Ipromessisposi">ma quando è alla via</quote>…</item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]295.</ref>
+                        <quote source="#Manzoni_Ipromessisposi">cocolle </quote>– – veste di <hi
+                            rend="underline">monaci </hi>non di <hi rend="underline"
+                        >monache</hi>.</item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]301.</ref>
+                        <quote source="#Manzoni_Ipromessisposi"><hi rend="underline">al
+                            </hi>domani</quote>, <hi rend="underline">all’indomane</hi>.</item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]309.</ref>
+                        <quote source="#Manzoni_Ipromessisposi"><hi rend="underline">repetio</hi>
+                        </quote><hi rend="underline">rammarico</hi>
+                        <note hand="#Gaetano_Cioni">Vedere <del>per</del> di queste da voi quelle
+                            che convenga meglio</note></item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]314.</ref>
+                        <quote source="#Manzoni_Ipromessisposi">martorio </quote><hi
+                            rend="underline">disusato</hi> tortura</item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.314]</ref>
+                        <quote source="#Manzoni_Ipromessisposi">scappuccio </quote>– basso.</item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]320.</ref>
+                        <quote source="#Manzoni_Ipromessisposi"><hi rend="underline">segugi</hi>
+                        </quote>– per <hi rend="underline">bracchi </hi>poco usato</item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]321.</ref>
+                        <quote source="#Manzoni_Ipromessisposi">imbonire </quote>abbonire</item>
+                    <item><ref target="pagina #Edizione_Ferrario">327.</ref>
+                        <quote source="#Manzoni_Ipromessisposi">testa busa </quote><hi
+                            rend="underline">testa vota</hi>.</item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]339.</ref>
+                        <quote source="#Manzoni_Ipromessisposi">costolame</quote> – non
+                        usato.</item>
+                </list>
+            </div>
+            <div>
+                <pb n="c. 2 verso"/>
+                <gap reason="carta vuota"/>
+                <desc>La carta non contiene elementi testuali</desc>
+            </div>
+            <div hand="#Alessandro_Manzoni">
+                <pb n="c. 3 recto"/>
+                <list rend="simple">
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]41.</ref> inprimoluogo —
+                            <quote source="#Manzoni_Ipromessisposi">inprima</quote>. </item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.41]</ref><quote
+                            source="#Manzoni_Ipromessisposi">al mattino</quote> La mattina</item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.41]</ref>L’indomani</item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.41]</ref>Dio ne liberi</item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.41]</ref><quote
+                            source="#Manzoni_Ipromessisposi">ma si pentiva</quote> si pentiva</item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]42.</ref>
+                        <quote source="#Manzoni_Ipromessisposi">aver </quote>– averne
+                        ciarlato</item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.42]</ref>
+                        <quote source="#Manzoni_Ipromessisposi">dando ciance </quote>menando l’oche
+                        a pastura</item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]44.</ref>
+                        <quote source="#Manzoni_Ipromessisposi">più scarso ancor</quote> ancor più
+                        scarso</item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.44]</ref><quote
+                            source="#Manzoni_Ipromessisposi">fornito di scorte</quote> – <abbr>Insol</abbr><expan>insolito</expan>
+                        provvisto –</item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.44]</ref>|<quote
+                            source="#Manzoni_Ipromessisposi">Piatire il pane</quote></item>
+                    <item> X<ref target="pagina #Edizione_Ferrario">[p.]45</ref>
+                        <quote source="#Manzoni_Ipromessisposi">ne’ nostri panni</quote> ne’ nostri
+                        piedi</item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.45]</ref><quote
+                            source="#Manzoni_Ipromessisposi">tor via</quote> torre di mezzo</item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]49.</ref>
+                        <quote source="#Manzoni_Ipromessisposi">
+                            <ab hand="#Gaetano_Cioni"><hi rend="underline"
+                        >marrone</hi></ab></quote></item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]50 </ref><del>al</del><quote
+                            source="#Manzoni_Ipromessisposi">levando </quote>alzando gli
+                        occhi</item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]52.</ref>
+                        <quote source="#Manzoni_Ipromessisposi">barbugliò </quote>balbettò</item>
+                    <item>
+                        <ref target="pagina #Edizione_Ferrario">[p.]53 </ref><quote
+                            source="#Manzoni_Ipromessisposi">barbugliando</quote></item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.53]</ref><quote
+                            source="#Manzoni_Ipromessisposi">non più rage </quote>–</item>
+                    <item><figure><desc>abbozzo di disegno di una strada</desc></figure></item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]55.</ref>
+                        <quote source="#Manzoni_Ipromessisposi">bella faccenda</quote> bella
+                        prodezza </item>
+                    <item><ref target="pagina #Edizione_Ferrario"> [p.]56.</ref>
+                        <quote source="#Manzoni_Ipromessisposi">alla sua volta </quote>–</item>
+                    <item><ref target="pagina #Edizione_Ferrario"> [p.]57.</ref>
+                        <quote source="#Manzoni_Ipromessisposi">di giunta</quote> allor avuta per
+                        giunta</item>
+                    <item><ref target="pagina #Edizione_Ferrario"> [p.]57 </ref><quote
+                            source="#Manzoni_Ipromessisposi">nulla <hi rend="underline">non</hi>
+                            fosse stato </quote>nulla fosse <abbr>st</abbr><expan>stato</expan>.</item>
+                    <item><ref target="pagina #Edizione_Ferrario"> [p.57]</ref>condoglianze</item>
+                    <item><ref target="pagina #Edizione_Ferrario"> [p.57]</ref><quote
+                            source="#Manzoni_Ipromessisposi">posto giù </quote>messo a letto andato
+                        a letto</item>
+                    <item><ref target="pagina #Edizione_Ferrario"> [p.]58</ref>
+                        <quote source="#Manzoni_Ipromessisposi">soverchianti
+                        </quote>soverchiatori</item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]60.</ref>
+                        <quote source="#Manzoni_Ipromessisposi">Conceputa </quote>concepita</item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.60]</ref><quote
+                            source="#Manzoni_Ipromessisposi">Zitto </quote>– Zitta.</item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]61.</ref>
+                        <quote source="#Manzoni_Ipromessisposi">al di sopra</quote>. sopra </item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.61]</ref><quote
+                            source="#Manzoni_Ipromessisposi">Intorno alla gola</quote>. al
+                        collo</item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]62.</ref>
+                        <quote source="#Manzoni_Ipromessisposi">quel mattino</quote> – quella
+                        mattina.</item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]63.</ref>
+                        <quote source="#Manzoni_Ipromessisposi">congedare </quote>licenziare </item>
+                    <item><del>dalla parolina dalla p</del></item>
+                </list>
+            </div>
+            <div hand="#Alessandro_Manzoni">
+                <pb n="c. 3 verso"/>
+                <list rend="simple">
+                    <item> Brontolìo </item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]67.</ref>
+                        <quote source="#Manzoni_Ipromessisposi">che potrei</quote> potessi </item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]69.</ref>
+                        <quote source="#Manzoni_Ipromessisposi">trovare</quote> trovarne il bandolo </item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]70</ref>
+                        <quote source="#Manzoni_Ipromessisposi">è un uomo</quote>. una cima d’uomo. </item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]71.</ref>
+                        <quote source="#Manzoni_Ipromessisposi">squassi </quote>scosse </item>
+                    <item>X<ref target="pagina #Edizione_Ferrario">[p.]74.</ref> – <quote
+                            source="#Manzoni_Ipromessisposi">costei</quote></item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.74]</ref><quote
+                            source="#Manzoni_Ipromessisposi">Barbugliando</quote> –borbottando </item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]78.</ref>
+                        <quote source="#Manzoni_Ipromessisposi">Armadura </quote>armatura </item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]79.</ref>
+                        <quote source="#Manzoni_Ipromessisposi">Mandato lui</quote> egli </item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]80.</ref>
+                        <quote source="#Manzoni_Ipromessisposi">qualche criminale</quote> – <hi
+                            rend="underline">Asta</hi>
+                    </item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]83.</ref>
+                        <quote source="#Manzoni_Ipromessisposi">Baiando</quote>
+                    </item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.83]</ref>
+                        <quote source="#Manzoni_Ipromessisposi"><hi rend="underline">sua
+                                assenza</hi></quote> di lui assenza </item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]84.</ref>
+                        <quote source="#Manzoni_Ipromessisposi">Lor dato</quote> – dato loro.</item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.84]</ref><quote
+                            source="#Manzoni_Ipromessisposi">un bussare</quote></item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.84]</ref><quote
+                            source="#Manzoni_Ipromessisposi">fatto un inchino</quote> – saluto col
+                        capo </item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.84]</ref><quote
+                            source="#Manzoni_Ipromessisposi">per la cerca</quote> alla cerca </item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]85.</ref>Picchiare – <quote
+                            source="#Manzoni_Ipromessisposi">Bussare </quote></item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.85]</ref><quote
+                            source="#Manzoni_Ipromessisposi">Litigare col pane</quote>? </item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.85]</ref><quote
+                            source="#Manzoni_Ipromessisposi">Pel sottile </quote>per la sottile </item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]86.</ref>
+                        <quote source="#Manzoni_Ipromessisposi">non la mi vuol</quote>
+                    </item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.86]</ref><quote
+                            source="#Manzoni_Ipromessisposi">abbacchiarle bacchiarle</quote>
+                    </item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]87.</ref>
+                        <quote source="#Manzoni_Ipromessisposi">lasciato indietro</quote>
+                    </item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.87]</ref><quote
+                            source="#Manzoni_Ipromessisposi">Inteso dire </quote>sentito dire </item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]89.</ref>
+                        <quote source="#Manzoni_Ipromessisposi">Tosa</quote>
+                    </item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.89]</ref><del>servito serviti
+                        </del></item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]49</ref>
+                        <quote source="#Manzoni_Ipromessisposi">pressa </quote>Per troppa furia
+                        <abbr>p</abbr> <expan>per</expan>troppo buon cuore Cap. V</item>
+                </list>
+            </div>
+            <div hand="#Gaetano_Cioni">
+                <pb n="c. 4 recto"/>
+                <list rend="simple">
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]1.</ref>
+                        <quote source="#Manzoni_Ipromessisposi">tanto o quanto</quote> — e quanto
+                            <note hand="#Gaetano_Cioni">sull’uso de due ii</note></item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.1]</ref>
+                        <quote source="#Manzoni_Ipromessisposi">messe </quote>— mietitura – <quote
+                            source="#Manzoni_Ipromessisposi">messe</quote> – raccolta</item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.1]</ref>
+                        <quote source="#Manzoni_Ipromessisposi">fatto motto </quote>— s’è brevissimo
+                        discorso . far parola.</item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]2.</ref>
+                        <quote source="#Manzoni_Ipromessisposi">stanziali </quote>— disusato antico.
+                        – di guarnigione.</item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.2]</ref>
+                        <quote source="#Manzoni_Ipromessisposi">Governare </quote>— </item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.2]</ref>
+                        <quote source="#Manzoni_Ipromessisposi">sprecamento</quote>. –
+                        sciupinío</item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.2]</ref>
+                        <quote source="#Manzoni_Ipromessisposi">caro</quote>.</item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.2]</ref>
+                        <quote source="#Manzoni_Ipromessisposi">squarcio</quote>.</item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]4.</ref>
+                        <quote source="#Manzoni_Ipromessisposi">di più generosi </quote>– de’ più
+                        <abbr>g</abbr><expan>generosi</expan></item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.4]</ref>
+                        <quote source="#Manzoni_Ipromessisposi">scappuccio </quote>La svista Lo
+                        sbaglio.</item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]5.</ref>
+                        <quote source="#Manzoni_Ipromessisposi">Fosse per baia </quote>? —.</item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.5]</ref>
+                        <quote source="#Manzoni_Ipromessisposi">Continuo </quote>– di
+                        continuo</item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.5]</ref>
+                        <quote source="#Manzoni_Ipromessisposi">discapitare </quote>scapitare</item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]6</ref>
+                        <quote source="#Manzoni_Ipromessisposi">dar loro del
+                        pubblico</quote>.</item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.6]</ref>
+                        <quote source="#Manzoni_Ipromessisposi">Intrattanto </quote>–
+                        frattanto</item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.6]</ref> provvedimento. <note
+                            hand="#Gaetano_Cioni">due vv</note></item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]7.</ref> <abbr>p</abbr><expan>più</expan><quote
+                            source="#Manzoni_Ipromessisposi">di sangue più freddo </quote>– più di
+                        sangue freddo di più sangue freddo.</item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]8.</ref>
+                        <quote source="#Manzoni_Ipromessisposi">Garzonetti </quote>garzoni</item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]9.</ref>
+                        <quote source="#Manzoni_Ipromessisposi">avventa <hi rend="underline">in alto
+                            </hi></quote>
+                        <quote source="#Manzoni_Ipromessisposi"><hi rend="underline">al labbro</hi>
+                        </quote>– all’orlo</item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.9]</ref>
+                        <quote source="#Manzoni_Ipromessisposi">arrossare</quote>
+                        <del>arrossisce</del></item>
+                </list>
+            </div>
+            <div hand="#Gaetano_Cioni">
+                <pb n="c. 4 verso"/>
+                <list rend="simple">
+                    <item>
+                        <ref target="pagina #Edizione_Ferrario">[p.]10 </ref>| <quote
+                            source="#Manzoni_Ipromessisposi">Barbugliando </quote>–
+                        balbettando</item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.10]</ref>| <quote
+                            source="#Manzoni_Ipromessisposi">spessarsi</quote> affollarsi</item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]11.</ref>
+                        <quote source="#Manzoni_Ipromessisposi">Insaccati</quote>. –</item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]12.</ref>
+                        <quote source="#Manzoni_Ipromessisposi">una serra </quote>pesta – pressa </item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.12]</ref>| <quote
+                            source="#Manzoni_Ipromessisposi">tambussare </quote>– per percuotersi
+                        basso dar busse percosse</item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.12]</ref>|<quote
+                            source="#Manzoni_Ipromessisposi">si tira </quote>– si mette tanto di
+                        catenaccio</item>
+                    <item>|<ref target="pagina #Edizione_Ferrario">[p.]13.</ref>
+                        <quote source="#Manzoni_Ipromessisposi">Criminale grosso</quote> –</item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.13]</ref>| <quote
+                            source="#Manzoni_Ipromessisposi">Borboglio </quote>fuor d’uso. frastuono </item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]|14.</ref>
+                        <quote source="#Manzoni_Ipromessisposi">Birbononi</quote></item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]15</ref>
+                        <quote source="#Manzoni_Ipromessisposi">fa un bottino </quote><note
+                            hand="#Alessandro_Manzoni">fa un bottino si leverà </note>fa bottino –
+                            <quote source="#Manzoni_Ipromessisposi">trassinare </quote>– <note
+                            hand="#Alessandro_Manzoni">si muterà pure</note></item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]16.</ref>
+                        <quote source="#Manzoni_Ipromessisposi">ammutinatelli </quote>– | <quote
+                            source="#Manzoni_Ipromessisposi">frumento </quote>– grano</item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]|17.</ref>
+                        <quote source="#Manzoni_Ipromessisposi">schiumante </quote>| colla schiuma
+                        alla bocca</item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]|18.</ref>
+                        <quote source="#Manzoni_Ipromessisposi">Gabbiani </quote> |<quote
+                            source="#Manzoni_Ipromessisposi">domani o dopo </quote>–</item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]19.</ref> | <quote
+                            source="#Manzoni_Ipromessisposi">di veccia</quote> di vecce e di
+                        loglio</item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]21.</ref>
+                        <quote source="#Manzoni_Ipromessisposi">vivere il pane</quote>. –</item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.21]</ref><quote
+                            source="#Manzoni_Ipromessisposi">fallo</quote>– .</item>
+                    <item>v. I. <ref target="pagina #Edizione_Ferrario">[p.]22.</ref>
+                        <quote source="#Manzoni_Ipromessisposi">Trarre colà</quote>. –</item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]23.</ref>
+                        <quote source="#Manzoni_Ipromessisposi">cacciar di lingue </quote>–</item>
+                </list>
+            </div>
+            <div hand="#Gaetano_Cioni">
+                <pb n="c. 5 recto"/>
+                <list rend="simple">
+                    <item> <hi rend="underline">Tomo II</hi></item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]25.</ref>
+                        <quote source="#Manzoni_Ipromessisposi">pane raffermo</quote> –</item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]26</ref>
+                        <quote source="#Manzoni_Ipromessisposi">Gragnola </quote></item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]27.</ref>
+                        <quote source="#Manzoni_Ipromessisposi">subuglio </quote>–</item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.27]</ref>sc scassinare la
+                        serratura</item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]28</ref>
+                        <quote source="#Manzoni_Ipromessisposi">smattonare </quote>e proprio di
+                        pavimento.</item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.28]</ref><quote
+                            source="#Manzoni_Ipromessisposi">spiccò un drappello
+                        </quote>pattuglia.</item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]29.</ref>
+                        <quote source="#Manzoni_Ipromessisposi">me ne rido.</quote> lo dicono anco i
+                        toscani –</item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.29]</ref><quote
+                            source="#Manzoni_Ipromessisposi">Restavano</quote> starsene se ne
+                        stavano</item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]30.</ref>
+                        <quote source="#Manzoni_Ipromessisposi">forese</quote></item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]31.</ref>
+                        <quote source="#Manzoni_Ipromessisposi">peso morto.</quote></item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]33.</ref> | <quote
+                            source="#Manzoni_Ipromessisposi">fanno il potere </quote> fan di tutto –
+                        quanto possono.</item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]34.</ref>
+                        <quote source="#Manzoni_Ipromessisposi">mista congerie</quote>
+                        miscuglio</item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]40.</ref>
+                        <quote source="#Manzoni_Ipromessisposi">arrotar piedi infranger
+                            mostacci.</quote></item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]44.</ref>
+                        <quote source="#Manzoni_Ipromessisposi">i gangheri
+                        sconficcati</quote></item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]59.</ref> | <quote
+                            source="#Manzoni_Ipromessisposi">le due</quote> tutte due lavano il
+                        viso</item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]61.</ref>
+                        <quote source="#Manzoni_Ipromessisposi">desco <hi rend="underline">molle</hi></quote> non è solo
+                        tavola non apparecchiata, ma mangiare a desco molle</item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]64.</ref>
+                        <quote source="#Manzoni_Ipromessisposi">stracciati morselli di pane</quote>
+                        –</item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]66.</ref>
+                        <quote source="#Manzoni_Ipromessisposi">faccia d’ariano</quote> –</item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]67.</ref>
+                        <quote source="#Manzoni_Ipromessisposi">ingorgiò </quote>– tracannò.</item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.67]</ref><quote
+                            source="#Manzoni_Ipromessisposi">suonare a fesso </quote>–</item>
+                </list>
+            </div>
+            <div hand="#Gaetano_Cioni">
+                <pb n="c. 5 verso"/>
+                <list rend="simple">
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]71</ref>: <quote
+                            source="#Manzoni_Ipromessisposi">arietando</quote> – non sarà inteso
+                        comunemente</item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.71]</ref><quote
+                            source="#Manzoni_Ipromessisposi">scrima </quote>– schermo.</item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]74</ref>
+                        <quote source="#Manzoni_Ipromessisposi">arrappare </quote></item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]76</ref>
+                        <quote source="#Manzoni_Ipromessisposi">scappuccio.</quote></item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]77</ref>
+                        <quote source="#Manzoni_Ipromessisposi">proveccio</quote></item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.77]</ref><quote
+                            source="#Manzoni_Ipromessisposi">sostentato.</quote></item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]79.</ref>
+                        <quote source="#Manzoni_Ipromessisposi">il zimbello </quote>– Lo =
+                        brigataccia.</item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]80</ref>
+                        <quote source="#Manzoni_Ipromessisposi"><hi rend="underline">Trassinato</hi> </quote>in senso
+                        proprio</item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]81.</ref>
+                        <quote source="#Manzoni_Ipromessisposi"><hi rend="underline">Troppo innanzi </hi>e troppo in lungo </quote>
+                        <note hand="#Alessandro_Manzoni">andareinnanzi non esprime la mia
+                            idea.</note></item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.81]</ref><quote
+                            source="#Manzoni_Ipromessisposi">Luminaria </quote>– Luminara.</item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]82.</ref>
+                        <quote source="#Manzoni_Ipromessisposi">D’<hi rend="underline">intra</hi> ‘l desco</quote> di <hi rend="underline">tra</hi> ‘l
+                        desco.</item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]83</ref> Infamia del nome
+                        …</item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]87.</ref>
+                        <quote source="#Manzoni_Ipromessisposi">se <hi rend="underline">non </hi>v’era</quote> se v’era novità
+                        di rilievo</item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]90.</ref>
+                        <quote source="#Manzoni_Ipromessisposi">a vigilare <hi rend="underline">la</hi> distribuzione</quote>
+                        <hi rend="underline">sulla</hi></item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]91.</ref>
+                        <quote source="#Manzoni_Ipromessisposi">un reo buon uomo proprio il
+                            caso</quote> ––</item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]95.</ref>
+                        <quote source="#Manzoni_Ipromessisposi">forti squassi alle due
+                            braccia</quote></item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]96</ref><quote
+                            source="#Manzoni_Ipromessisposi">da vero </quote>– davvero.</item>
+                    <item><ref target="pagina #Edizione_Ferrario">[p.]98.</ref>
+                        <quote source="#Manzoni_Ipromessisposi">Ronzo crescente</quote> ––</item>
+                    <item><ref target="pagina #Edizione_Ferrario"><sic>99</sic><corr>p.99</corr></ref>
+                        <quote source="#Manzoni_Ipromessisposi">che altri –</quote>–</item>
+                </list>
+            </div>
+        </body>
+    </text>
+</TEI>

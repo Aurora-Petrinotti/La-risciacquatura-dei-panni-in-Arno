@@ -1,0 +1,411 @@
+
+body {
+}
+/* header */
+.header {margin-left: 600px;
+  margin-right: 500px;
+  width: 300px;
+
+}
+/* FINE header */
+
+/* nav*/
+
+.navbar {
+  background-color: #ffffcc;
+  color: black;
+  padding: 5px 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 2px;
+}
+
+
+.home {
+  border-color: #002266;
+  color: #004de6;
+}
+
+.home:hover {
+  background-color: #002db3;
+  color: white;
+}
+
+
+.intro {
+  border-color: #002266;
+}
+
+.intro:hover {
+  background: #004de6;
+}
+
+
+.catalogo {
+  border-color:  #002266;
+}
+
+.catalogo:hover {
+  background: #668cff;
+
+}
+
+.bio {
+  border-color: #002266;
+
+}
+
+.bio:hover {
+  background: #99b3ff;
+}
+
+.biblio {
+  border-color: #002266;
+
+}
+
+.biblio:hover {
+  background: #ccd9ff;
+
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color:#8c8c8c;
+  text-align: center;
+  padding: 5px 10px;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+.navbar form{padding: 5px 5px;
+
+
+}
+/* FINE nav */
+/* pre-footer*/
+.pre-footer{background-color:#003cb3;
+  padding: 10px;
+  text-align: center;
+
+}
+.freccia_container{background-color: #ffffcc;
+  text-align: right;
+
+}
+.freccia_content img{width: 50;
+}
+
+/* freccia - footer e - pre-footer*/
+.footer{ background-color: #003399;
+  text-align: center;
+  padding: 10px;
+
+}
+
+.footer, .pre-footer p, .pre-footer a{color: #ffffff;
+}
+
+footer, .pre-footer {
+            clear: both; /*  sotto sia l'aside che il contenuto principale */}
+
+
+/*FINE  freccia - footer e - pre-footer*/
+/* introduzione */
+.introduzione-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("C:/Users/auror/Documents/DH/Sito_web_esame/img/frontespizio.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  padding: 80px;
+  margin: 5px;
+  background-color: #ffffb3;
+}
+
+.introduzione-image .btn {
+  display: block;
+  margin: 0 auto;
+  width: 20%;
+  padding: 30px;
+}
+
+
+.introduzione-text {
+  text-align: center;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:  #ffff66;
+}
+
+.introduzione-text p {
+  font-size: 20px;
+  text-decoration: overline;
+}
+/*FINE introduzione*/
+/* STORIA-QUESTIONE DELLA LINGUA*/
+.button_list{text-align: center;
+  padding: 10px;
+  background-color: #e6f2ff;
+  padding-bottom: 3px;
+}
+.manoscritti{padding: 10px;
+
+}
+.card{padding: 5px;
+
+}
+.card img{margin: auto;
+
+}
+.card-body{text-align: center;
+  padding: 10px;
+}
+.card-body a{background-color: #ffffcc;
+  color: #000000;
+  padding: 10px;
+}
+/* FINE STORIA-QUESTIONE DELLA LINGUA*/
+
+/*edizione digitale*/
+.edizione_container {
+  position: relative;
+  max-width: 500px; /* Maximum width */
+  margin: 0 auto; /* Center it */
+}
+
+.edizione_container a{color: #ffffff;
+}
+
+.edizione{background-color: #e6f2ff;
+
+}
+.edizione_container .edizione_content {
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: #ffffb3; /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 100%; /* Full width */
+  padding: 110px; /* Some padding */
+  text-align: center;
+}
+
+/*FINE edizione digitale*/
+
+
+/* bibliografia */
+.bibliografia {
+  position: relative;
+  width: 50%;
+  padding: 40px;
+  position: relative;
+  margin:auto;
+}
+
+.bibliografia_image {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.bibliografia:hover .overlay {
+  opacity: 1;
+}
+
+.text_bibliografia {
+  color: white;
+  font-size: 15px;
+  position: absolute;
+  top: 55%;
+  left: 35%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  margin-left: 90px;
+  text-align: justify;
+}
+.text_bibliografia a{color: #ffffff;
+
+}
+
+.bibliografia_container{background-color: #ffffcc}
+/* questione lingua*/
+.row{padding:25px; background-color: #b3d9ff; 
+}
+/*FINE bibliografia */
+
+/* ASIDE*/
+/*colonne*/
+
+.leftcolumn {
+  float: left;
+  padding: 15px;
+  width: 80%;
+}
+
+/* right column */
+.rightcolumn {
+  float: right;
+  padding: 15px;
+  width: 20%;
+  background-color:  #ffffe6;
+  padding: 20px;
+  text-align: center;
+}
+
+/* equal columns */
+.equalcolumn {
+  float: left;
+  padding: 15px;
+  width: 50%;
+}
+
+.aside{text-align:center; 
+}
+aside a{ color: #000000;
+
+}
+aside img{width: 30%;
+
+}
+/*  FINE ASIDE*/
+
+/*  NUMERI PAGINA*/
+.pagination{clear: both;
+  margin-left: 400px;
+text-align: center;
+
+}
+.pagination a {
+  color: black;
+  text-align: center;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color .3s;
+}
+
+.pagination a.active {
+  background-color: grey;
+  color: white;
+}
+
+.pagination a:hover:not(.active) {background-color: #ddd;}
+
+/*  FINE NUMERI PAGINA*/
+
+
+/*slideshow manoscritto ITEM CIONI*/
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.slide_manoscritto {display: none}
+img {vertical-align: middle;
+width: 50%;
+}
+
+/* Slideshow container */
+.slideshow-container-ms {
+  max-width: 1000px;
+  position: relative;
+  margin-left: 0px;
+  margin-right: 75px;
+  padding: 20px;
+  background-color: #e6f2ff;
+}
+.img_container{text-align: center;
+
+}
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #000000;
+  font-size: 20px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: left;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+/* FINE slideshow manoscritto ITEM CIONI*/
+
+/* card ITEM CIONI*/
+.card{padding: 15px}
+
+.card-body-metadati{background-color: #ffffcc;
+padding: 18px;}
+
+.card-metadati {color: black;
+text-align: justify;
+padding: 20px}
+/*FINE  card ITEM CIONI*/
+
+/*card LIST-ITEM*/
+.tablinks{margin-left: 10px;
+  background-color: #e6f2ff;
+  color: #000000;
+  padding: 15px;
+}
+.tabcontent{margin-left: 10px;
+  display:flex;
+  width: 30%;
+  position: relative;
+}
+/*FINE card LIST-ITEM*/
+

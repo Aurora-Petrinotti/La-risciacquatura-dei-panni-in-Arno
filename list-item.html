@@ -1,0 +1,208 @@
+<DOCTYPE html>
+<html> 
+	<head> 
+		<title>La risciacquatura dei panni in Arno</title>
+		<meta charset="UTF-8">
+		<meta name="description" content="Sito dedicato alle correzioni dell'edizione dei Promessi Sposi del 1827"/>
+		<meta name="keywords" content="risciacquatura, Cioni, Niccolini, Luti, Manzoni, Ventisettana, Quarantana"/>
+		<meta name="author" content="Aurora Petrinotti"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="style.css" />
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+	<body>
+		<!-- 1.la prima div corrisponde all'header in cui metto il titolo la risciacquatura dei panni in Arno come immagine -->
+		<header>
+			<div class="header">
+			  <img src="C:\Users\auror\Documents\DH\Sito_web_esame\img\header\header.png" alt="La risciacquatura dei panni in arno" style="width:100%;">
+			</div>
+		</header>
+		<!-- 2.la seconda corrisponde alla navbar nella quale ho la Home, Introduzione, Catalogo, Bio, e Bibliografia-->
+		<nav>
+			<div class="navbar">
+			<button class="navbar home"><a href="index.html" title="Torna alla home"><b>Home</b></a></button>
+			<button class="navbar intro"><a href="#"><b>Introduzione</b></a></button>
+			<button class="navbar catalogo"><a href="#" class="active" title="Link al Catalogo"><b>Catalogo</b></a></button>
+			<button class="navbar bio"><a href="#"><b>Biografia</b></a></button>
+			<button class="navbar biblio"><a href="#"><b>Bibliografia</b></a></button>	
+				<form class="d-flex">
+			        <input class="form-control me-2" type="search" placeholder="Cerca..." aria-label="Cerca...">
+			        <button class="btn btn-blue" type="submit"></button>
+				</form>
+			</div>
+		</nav>
+		<!-- BREADCRUMB -->
+			<div style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+  				<ol class="breadcrumb">
+    				<li class="breadcrumb-item"><a href="index.html">Home</a></li>
+   					<li class="breadcrumb-item active" aria-current="page">Catalogo</li>
+ 				</ol>
+			</div>
+		<aside>
+        	<div class="aside">
+        	<div class="rightcolumn">
+	          <button type="button" class="btn btn-light"><h6>Per saperne di più</h6>
+	          <p>Con il termine <b>lavandai</b> ci si riferisce a Gaetano Cioni e Giambattista Niccolini, artefici della revisione del testo dei Promessi sposi.<br><a href="#" title="scopri perché" target="blank">Scopri perché si usa questo termine</a></p>
+	          </button>
+	          <button type="button" class="btn btn-light"><a href="#" class="btn default" title="In ordine cronologico">Esplora il catalogo in ordine cronologico</a></button>
+	          <button type="button" class="btn btn-light"><a href="#" class="btn default" title="Luoghi">Esplora il catalogo per luoghi</a></button>
+	    	</div>
+	    	</div>
+	    </aside>    
+	    <section class="manoscritti">
+	    	<!-- COLONNA SINISTRA-->
+	    	<div class="leftcolumn">
+		    	<div class="tab">
+				  <button class="tablinks" onclick="openCity(event, 'Lavandai')">Lavandai</button>
+				  <button class="tablinks" onclick="openCity(event, 'Emilia Luti')">Emilia Luti</button>
+				  <button class="tablinks" onclick="openCity(event, 'Revisioni manzoniane')">Revisioni manzoniane</button>
+				</div>
+			</div>
+	        <!-- tabcontent -->
+			<!-- LAVANDAI -->
+			<div class="leftcolumn">
+				<div id="Lavandai" class="tabcontent">
+					<div class="card" >
+						<img src="C:\Users\auror\Documents\DH\Sito_web_esame\img\Catalogo\Lavandai\Gaetano Cioni\c1r.jpg" class="card-img-top" alt="manoscritto_Cioni">
+					 	<div class="card-body">
+					    	<p class="card-text"><a href="item.html">Manz.B.VI.6</a></p>
+					  	</div>
+					</div>
+					<div class="card">
+					  	<img src="C:\Users\auror\Documents\DH\Sito_web_esame\img\Catalogo\Lavandai\Niccolini\Niccolini.jpg" class="card-img-top" alt="manoscritto_Niccolini">
+					  	<div class="card-body">
+					    	<p class="card-text"><a href="#">Manz.B.VI.7</a></p>
+					  	</div>
+					</div>
+				</div>
+			</div>	
+			<!-- EMILIA LUTI-->
+			<div class="leftcolumn">	
+				<div id="Emilia Luti" class="tabcontent">
+					<div class="card">
+						<img src="C:\Users\auror\Documents\DH\Sito_web_esame\img\Catalogo\Luti\Luti.jpg" class="card-img-top" alt="manoscritto_Luti">
+					 	<div class="card-body">
+						   	<p class="card-text"><a href="#">Manz.B.VIII.9</a></p>
+					  	</div>
+					</div>
+				</div>
+			</div>	
+			<!-- REVISIONI MANZONIANE -->
+			<div class="leftcolumn">	
+				<div id="Revisioni manzoniane" class="tabcontent">
+					<div class="card">
+						<img src="C:\Users\auror\Documents\DH\Sito_web_esame\img\Catalogo\Manzoni\Fermo_e_Lucia.jpg" class="card-img-top" alt="Fermo_e_Lucia">
+					 	<div class="card-body">
+					    	<p class="card-text"><a href="#">Fermo e Lucia</a></p>
+					  	</div>
+					</div>
+					<div class="card">
+					  	<img src="C:\Users\auror\Documents\DH\Sito_web_esame\img\Catalogo\Manzoni\Sposi_promessi.jpg" class="card-img-top" alt="Sposi_promessi">
+					  	<div class="card-body">
+					    	<p class="card-text"><a href="#">Gli sposi promessi</a></p>
+					  	</div>
+					</div>
+					<div class="card">
+					  	<img src="C:\Users\auror\Documents\DH\Sito_web_esame\img\Catalogo\Manzoni\PS27.jpg" class="card-img-top" alt="1827">
+					  	<div class="card-body">
+					    	<p class="card-text"><a href="#">I promessi sposi (1827)</a></p>
+					  	</div>
+					</div>
+					<div class="card">
+					  	<img src="C:\Users\auror\Documents\DH\Sito_web_esame\img\Catalogo\Manzoni\bozze_quarantana.jpg" class="card-img-top" alt="1840">
+					  	<div class="card-body">
+					    	<p class="card-text"><a href="#">I promessi sposi (1840)</a></p>
+					  	</div>
+					</div>
+				</div>
+				</div>	
+			</div>					
+	    </section>
+	    <section>
+	    	<div class="leftcolumn">
+			<div class="pagination">
+				<a href="#">&laquo;</a>
+				<a class="active" href="#">1</a>
+				<a href="#">2</a>
+				<a href="#">3</a>
+				<a href="#">4</a>
+				<a href="#">5</a>
+				<a href="#">6</a>
+				<a href="#">&raquo;</a>
+			</div>
+			</div>
+		</section>
+		<!--  Sezione di credits e licenze -->
+		<section>
+			<div class="pre-footer">
+				<a href="#" title="Credits">Credits</a>  |  <a href="#" title="Licenze">Licenze</a>
+    	</section>
+    	<!-- 10. Sezione dedicata al copy -->
+		<footer>
+			<div class="footer">
+			<p> &copy; Copyright (C) </p>
+			</div>
+		</footer>
+		<script>
+		filterSelection("all")
+		function filterSelection(c) {
+		  var x, i;
+		  x = document.getElementsByClassName("column");
+		  if (c == "all") c = "";
+		  for (i = 0; i < x.length; i++) {
+		    w3RemoveClass(x[i], "show");
+		    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+		  }
+		}
+
+		function w3AddClass(element, name) {
+		  var i, arr1, arr2;
+		  arr1 = element.className.split(" ");
+		  arr2 = name.split(" ");
+		  for (i = 0; i < arr2.length; i++) {
+		    if (arr1.indexOf(arr2[i]) == -1) {element.className += " " + arr2[i];}
+		  }
+		}
+
+		function w3RemoveClass(element, name) {
+		  var i, arr1, arr2;
+		  arr1 = element.className.split(" ");
+		  arr2 = name.split(" ");
+		  for (i = 0; i < arr2.length; i++) {
+		    while (arr1.indexOf(arr2[i]) > -1) {
+		      arr1.splice(arr1.indexOf(arr2[i]), 1);     
+		    }
+		  }
+		  element.className = arr1.join(" ");
+		}
+
+
+		// Add active class to the current button (highlight it)
+		var btnContainer = document.getElementById("myBtnContainer");
+		var btns = btnContainer.getElementsByClassName("btn");
+		for (var i = 0; i < btns.length; i++) {
+		  btns[i].addEventListener("click", function(){
+		    var current = document.getElementsByClassName("active");
+		    current[0].className = current[0].className.replace(" active", "");
+		    this.className += " active";
+		  });
+		}
+		</script>			
+		<script>
+		function openCity(evt, cityName) {
+		  var i, tabcontent, tablinks;
+		  tabcontent = document.getElementsByClassName("tabcontent");
+		  for (i = 0; i < tabcontent.length; i++) {
+		    tabcontent[i].style.display = "none";
+		  }
+		  tablinks = document.getElementsByClassName("tablinks");
+		  for (i = 0; i < tablinks.length; i++) {
+		    tablinks[i].className = tablinks[i].className.replace(" active", "");
+		  }
+		  document.getElementById(cityName).style.display = "block";
+		  evt.currentTarget.className += " active";
+		}
+</script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+	</body>
+</html>
